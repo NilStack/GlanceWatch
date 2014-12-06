@@ -1,0 +1,1 @@
+### WatchKit Glance example for my blog [iWatch App Development Basic 4 Glance](http://nilstack.github.io/2014/12/06/iWatch-App-Development-Basic-4-Glance/).

@@ -14,6 +14,14 @@
 		B816D8731A3034E000203068 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B816D8721A3034E000203068 /* Images.xcassets */; };
 		B816D8761A3034E000203068 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B816D8741A3034E000203068 /* LaunchScreen.xib */; };
 		B816D8821A3034E000203068 /* GlanceWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B816D8811A3034E000203068 /* GlanceWatchTests.m */; };
+		B816D8921A30367A00203068 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B816D8911A30367A00203068 /* WatchKit.framework */; };
+		B816D8981A30367A00203068 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B816D8971A30367A00203068 /* InterfaceController.m */; };
+		B816D89B1A30367A00203068 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B816D89A1A30367A00203068 /* GlanceController.m */; };
+		B816D89D1A30367A00203068 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B816D89C1A30367A00203068 /* Images.xcassets */; };
+		B816D8A11A30367A00203068 /* GlanceWatch Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = B816D8A01A30367A00203068 /* GlanceWatch Watch App.app */; };
+		B816D8A81A30367A00203068 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B816D8A71A30367A00203068 /* Interface.storyboard */; };
+		B816D8AA1A30367A00203068 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B816D8A91A30367A00203068 /* Images.xcassets */; };
+		B816D8AD1A30367A00203068 /* GlanceWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B816D88F1A30367A00203068 /* GlanceWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +32,35 @@
 			remoteGlobalIDString = B816D8611A3034E000203068;
 			remoteInfo = GlanceWatch;
 		};
+		B816D8A21A30367A00203068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B816D85A1A3034E000203068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B816D89F1A30367A00203068;
+			remoteInfo = "GlanceWatch Watch App";
+		};
+		B816D8AB1A30367A00203068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B816D85A1A3034E000203068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B816D88E1A30367A00203068;
+			remoteInfo = "GlanceWatch WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B816D8B41A30367A00203068 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B816D8AD1A30367A00203068 /* GlanceWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B816D8621A3034E000203068 /* GlanceWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlanceWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +76,18 @@
 		B816D87B1A3034E000203068 /* GlanceWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlanceWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B816D8801A3034E000203068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B816D8811A3034E000203068 /* GlanceWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceWatchTests.m; sourceTree = "<group>"; };
+		B816D88F1A30367A00203068 /* GlanceWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GlanceWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B816D8911A30367A00203068 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		B816D8951A30367A00203068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B816D8961A30367A00203068 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		B816D8971A30367A00203068 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		B816D8991A30367A00203068 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		B816D89A1A30367A00203068 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		B816D89C1A30367A00203068 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B816D8A01A30367A00203068 /* GlanceWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GlanceWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B816D8A61A30367A00203068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B816D8A71A30367A00203068 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		B816D8A91A30367A00203068 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +105,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B816D88C1A30367A00203068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B816D8921A30367A00203068 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +121,9 @@
 			children = (
 				B816D8641A3034E000203068 /* GlanceWatch */,
 				B816D87E1A3034E000203068 /* GlanceWatchTests */,
+				B816D8931A30367A00203068 /* GlanceWatch WatchKit Extension */,
+				B816D8A41A30367A00203068 /* GlanceWatch Watch App */,
+				B816D8901A30367A00203068 /* Frameworks */,
 				B816D8631A3034E000203068 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +133,8 @@
 			children = (
 				B816D8621A3034E000203068 /* GlanceWatch.app */,
 				B816D87B1A3034E000203068 /* GlanceWatchTests.xctest */,
+				B816D88F1A30367A00203068 /* GlanceWatch WatchKit Extension.appex */,
+				B816D8A01A30367A00203068 /* GlanceWatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +180,53 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B816D8901A30367A00203068 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B816D8911A30367A00203068 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B816D8931A30367A00203068 /* GlanceWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B816D8961A30367A00203068 /* InterfaceController.h */,
+				B816D8971A30367A00203068 /* InterfaceController.m */,
+				B816D8991A30367A00203068 /* GlanceController.h */,
+				B816D89A1A30367A00203068 /* GlanceController.m */,
+				B816D89C1A30367A00203068 /* Images.xcassets */,
+				B816D8941A30367A00203068 /* Supporting Files */,
+			);
+			path = "GlanceWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B816D8941A30367A00203068 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B816D8951A30367A00203068 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B816D8A41A30367A00203068 /* GlanceWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				B816D8A71A30367A00203068 /* Interface.storyboard */,
+				B816D8A91A30367A00203068 /* Images.xcassets */,
+				B816D8A51A30367A00203068 /* Supporting Files */,
+			);
+			path = "GlanceWatch Watch App";
+			sourceTree = "<group>";
+		};
+		B816D8A51A30367A00203068 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B816D8A61A30367A00203068 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,10 +237,12 @@
 				B816D85E1A3034E000203068 /* Sources */,
 				B816D85F1A3034E000203068 /* Frameworks */,
 				B816D8601A3034E000203068 /* Resources */,
+				B816D8B41A30367A00203068 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B816D8AC1A30367A00203068 /* PBXTargetDependency */,
 			);
 			name = GlanceWatch;
 			productName = GlanceWatch;
@@ -157,6 +267,39 @@
 			productReference = B816D87B1A3034E000203068 /* GlanceWatchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B816D88E1A30367A00203068 /* GlanceWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B816D8B11A30367A00203068 /* Build configuration list for PBXNativeTarget "GlanceWatch WatchKit Extension" */;
+			buildPhases = (
+				B816D88B1A30367A00203068 /* Sources */,
+				B816D88C1A30367A00203068 /* Frameworks */,
+				B816D88D1A30367A00203068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B816D8A31A30367A00203068 /* PBXTargetDependency */,
+			);
+			name = "GlanceWatch WatchKit Extension";
+			productName = "GlanceWatch WatchKit Extension";
+			productReference = B816D88F1A30367A00203068 /* GlanceWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		B816D89F1A30367A00203068 /* GlanceWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B816D8AE1A30367A00203068 /* Build configuration list for PBXNativeTarget "GlanceWatch Watch App" */;
+			buildPhases = (
+				B816D89E1A30367A00203068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GlanceWatch Watch App";
+			productName = "GlanceWatch Watch App";
+			productReference = B816D8A01A30367A00203068 /* GlanceWatch Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,6 +315,12 @@
 					B816D87A1A3034E000203068 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = B816D8611A3034E000203068;
+					};
+					B816D88E1A30367A00203068 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B816D89F1A30367A00203068 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -190,6 +339,8 @@
 			targets = (
 				B816D8611A3034E000203068 /* GlanceWatch */,
 				B816D87A1A3034E000203068 /* GlanceWatchTests */,
+				B816D88E1A30367A00203068 /* GlanceWatch WatchKit Extension */,
+				B816D89F1A30367A00203068 /* GlanceWatch Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -209,6 +360,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B816D88D1A30367A00203068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B816D89D1A30367A00203068 /* Images.xcassets in Resources */,
+				B816D8A11A30367A00203068 /* GlanceWatch Watch App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B816D89E1A30367A00203068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B816D8A81A30367A00203068 /* Interface.storyboard in Resources */,
+				B816D8AA1A30367A00203068 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +402,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B816D88B1A30367A00203068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B816D8981A30367A00203068 /* InterfaceController.m in Sources */,
+				B816D89B1A30367A00203068 /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +418,16 @@
 			isa = PBXTargetDependency;
 			target = B816D8611A3034E000203068 /* GlanceWatch */;
 			targetProxy = B816D87C1A3034E000203068 /* PBXContainerItemProxy */;
+		};
+		B816D8A31A30367A00203068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B816D89F1A30367A00203068 /* GlanceWatch Watch App */;
+			targetProxy = B816D8A21A30367A00203068 /* PBXContainerItemProxy */;
+		};
+		B816D8AC1A30367A00203068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B816D88E1A30367A00203068 /* GlanceWatch WatchKit Extension */;
+			targetProxy = B816D8AB1A30367A00203068 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -393,6 +581,62 @@
 			};
 			name = Release;
 		};
+		B816D8AF1A30367A00203068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = GlanceWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "GlanceWatch Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		B816D8B01A30367A00203068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = GlanceWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "GlanceWatch Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		B816D8B21A30367A00203068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GlanceWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B816D8B31A30367A00203068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GlanceWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -418,6 +662,22 @@
 			buildConfigurations = (
 				B816D8891A3034E000203068 /* Debug */,
 				B816D88A1A3034E000203068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B816D8AE1A30367A00203068 /* Build configuration list for PBXNativeTarget "GlanceWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B816D8AF1A30367A00203068 /* Debug */,
+				B816D8B01A30367A00203068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B816D8B11A30367A00203068 /* Build configuration list for PBXNativeTarget "GlanceWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B816D8B21A30367A00203068 /* Debug */,
+				B816D8B31A30367A00203068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
