@@ -16,26 +16,22 @@
 
 @implementation GlanceController
 
-- (instancetype)initWithContext:(id)context {
-    self = [super initWithContext:context];
-    if (self){
-        // Initialize variables here.
-        // Configure interface objects here.
-        NSLog(@"%@ initWithContext", self);
-        
-    }
-    return self;
+- (void)awakeWithContext:(id)context {
+    [super awakeWithContext:context];
+    
+    // Configure interface objects here.
 }
 
 - (void)willActivate {
     // This method is called when watch view controller is about to be visible to user
-    NSLog(@"%@ will activate", self);
+    [super willActivate];
 }
 
 - (void)didDeactivate {
     // This method is called when watch view controller is no longer visible
-    NSLog(@"%@ did deactivate", self);
+    [super didDeactivate];
 }
+
 
 @end
 
